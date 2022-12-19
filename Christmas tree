@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Pransu {
 
 	public static void main(String[] args) {
-
+       // Ask the user for their name
 		System.out.println("Please enter your name:");
 
 		Scanner input = new Scanner(System.in);
 		String name = input.next();
-
+       // Greet the user with a Merry Christmas message
 		System.out.println("Merry Christmas! "+ name);
          int i = 0;
-
+//Display a Christmas Tree pattern using while loop
     while(i<7){
          int j = 0;
          int k = 0;
