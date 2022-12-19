@@ -11,6 +11,7 @@ public class Pransu{
 			reverse = reverse + s.charAt(i);
 		}
 		if(s.equals(reverse)){
+            //checks if sting s is same as reverse
 			System.out.println("True. It is a PALINDROME");
 		}
 		else{
