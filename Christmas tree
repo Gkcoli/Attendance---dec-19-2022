@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Pransu {
+
+	public static void main(String[] args) {
+
+		System.out.println("Please enter your name:");
+
+		Scanner input = new Scanner(System.in);
+		String name = input.next();
+
+		System.out.println("Merry Christmas! "+ name);
+         int i = 0;
+
+    while(i<7){
+         int j = 0;
+         int k = 0;
+    while(j<8-i){
+         System.out.print(" ");
+              j++;}
+    while(k<(2*i)+1){
+         System.out.print("*");
+             k++;}
+            ++i;
+         System.out.println("");
+            }
+        System.out.println("       *** \n       ***");
+
+        
+   }
+}
