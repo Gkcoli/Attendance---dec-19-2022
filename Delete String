@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Pransu {
+  public static void main(String[] args) {
+  
+    ArrayList<String> elements = new ArrayList<>();
+
+    elements.add("Pransu");
+    elements.add("Miko");
+    elements.add("Mieko");
+    elements.add("Ei");
+    elements.add("Wallnut");
+    elements.add("eighty-six");
+
+    Scanner scanner = new Scanner(System.in);
+
+    while (!elements.isEmpty()) {
+      System.out.println("Current set of elements: " + elements);
+
+      System.out.print("Select an element to delete: ");
+      String selectedElement = scanner.nextLine();
+
+      elements.remove(selectedElement);
+    }
+
+    System.out.println("No element left");
+    scanner.close(); 
+  }
+}
